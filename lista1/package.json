@@ -1,0 +1,25 @@
+{
+  "name": "licoesjs",
+  "version": "1.0.0",
+  "description": "treinamento jedi",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cameasy/treinamento_Javascript.git"
+  },
+  "keywords": [
+    "Yoda"
+  ],
+  "author": "Caemasy e Frineo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cameasy/treinamento_Javascript/issues"
+  },
+  "homepage": "https://github.com/Cameasy/treinamento_Javascript#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

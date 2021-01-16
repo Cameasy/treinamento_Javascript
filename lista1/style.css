@@ -1,0 +1,40 @@
+body.clorchangered
+{
+    color: blanchedalmond;
+  background: #f00;
+}
+body.clorchangegreen
+{
+    color: blanchedalmond;
+  background: green;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(27, 25, 25);
+    align-items: center;
+}
+.button {
+    background-color: #b800e6; 
+    border: none;
+    color: rgb(39, 35, 35);
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 15px
+  }
+  .button:hover {opacity: 0.5}
+  
+  .button {
+    background-color: transparent;
+    color: rgb(31, 28, 28);
+    border: 2px solid rgb(36, 33, 33);
+  }
+  
+  .button:hover {
+    background-color: transparent; 
+    color: #fdcf00; 
+    border: 2px solid #fdcf00
+      }
