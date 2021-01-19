@@ -1,0 +1,133 @@
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 50%;
+  }
+  
+  .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    outline: 0;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+    ::placeholder {
+      color: transparent;
+    }
+  
+    :placeholder-shown ~ .form__label {
+      font-size: 1.3rem;
+      cursor: text;
+      top: 20px;
+    }
+  
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+  }
+  
+    .form__label {
+      font-family: 'Courier New', Courier, monospace;
+      position: absolute;
+      top: 0;
+      display: block;
+      transition: 0.2s;
+      font-size: 1rem;
+      color: rgb(0, 0, 0);
+      opacity: 0.8;    
+    padding-bottom: 6px;  
+    border-width: 3px;
+    border-image: linear-gradient(to right, primary,secondary);
+    border-image-slice: 1;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 1.5rem;
+    background-color: #fcfcfc;
+      color: rgb(0, 0, 0);
+  }
+  
+  
+  h1 {
+    position: absolute;
+    top: 0%;
+      font-family:'Courier New', Courier, monospace;
+      font-size: 62px;
+  letter-spacing: 3.2px;
+  word-spacing: 2px;
+  font-weight: 500;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+    text-align: center;
+      color:rgb(0, 0, 0);
+      position: absolute;
+      top: 10%;
+      display: block;
+  }
+  #image{
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+  }
+  
+  div {
+      font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    align-content: flex-end;
+  }
+  .button {
+    background-color: #777777; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 15px
+  }
+  .button:hover {opacity: 0.5}
+  
+  .button {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+  .button:hover {
+    background-color: transparent; 
+    color: #777777; 
+    border: 2px solid #777777
+      }
+    
+  span {
+      font-family:'Courier New', Courier, monospace;
+      font-size: 24px;
+      color: rgb(0, 0, 0);
+  letter-spacing: 3.2px;
+  word-spacing: 2px;
+  text-decoration: none solid rgb(0, 0, 0);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+    text-align: center;
+  }
